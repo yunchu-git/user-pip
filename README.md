@@ -8,7 +8,7 @@
 > [!TIP]
 > 本库使用报错码形式报错均使用报错码形式（如2*000001等），可用[仓库yunchu-dev-specs](https://github.com/yunchu-git/yunchu-dev-specs)查看报错码
 
-python的pip是一个库，**但是官方不建议直接调用**，本库使用`subprocess`标准库执行命令的方式来进行pip的python调用，调用时调用名为`pip_user`
+python的pip是一个库，**但是官方不建议直接调用**，本库使用`subprocess`标准库执行命令的方式来进行pip的python调用，调用时调用名为`user_pip`
 
 # 使用示例
 1. 安装库：

@@ -59,3 +59,15 @@ pip_upgrade("python3","pip3")
 ```
 
 参数1：python版本 参数2：pip对应的python版本
+
+8. 安装指定版本：
+```Python
+install_version("wxpython","4.3.2","pip3","https://mirrors.ctyun.cn/pypi/simple/")
+
+参数1：要安装的库 参数2：版本 参数3：pip对应的python版本 参数4：镜像源
+
+9. 安装whl：
+```Python
+install_whl(r"C:/abc.whl","pip3")
+
+参数1：whl文件地址 参数2：pip对应的python版本

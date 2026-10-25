@@ -1,5 +1,4 @@
 # user-pip
-pip支持库
 > [!IMPORTANT]
 > **本库使用MIT许可证，在分发时请保留署名！谢谢！**
 

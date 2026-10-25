@@ -21,6 +21,9 @@ def install (name,pip="pip",mirror="https://pypi.tuna.tsinghua.edu.cn/simple"):
 def install_version(name,version,pip="pip",mirror="https://pypi.tuna.tsinghua.edu.cn/simple"):
     print_output(f"{pip} install {name}=={version} -i {mirror}")
 
+def install_whl(file_path,pip="pip"):
+    print_output(f'{pip} install "{file_path}"')
+
 def uninstall (name,pip="pip",confirm=False):
     if confirm:
         if name == "pip":
